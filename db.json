@@ -1,0 +1,89 @@
+{
+    "items":[
+        {
+            "id":1,
+            "title":"Iphone 14 promax",
+            "class":"phone",
+            "price":1300,
+            "image":"https://filter-search-rp.vercel.app/assets/images/2.png"
+        },
+        {
+            "id":2,
+            "title":"Macbook pro 2021",
+            "class":"laptop",
+            "price":2200,
+            "image":"https://filter-search-rp.vercel.app/assets/images/2.png"
+        },
+        {
+            "id":3,
+            "title":"Apple watch ultra",
+            "class":"watch",
+            "price":1200,
+            "image":"https://filter-search-rp.vercel.app/assets/images/2.png"
+        },
+        {
+            "id":4,
+            "title":"Adidas shirt model-A",
+            "class":"phone",
+            "price":250,
+            "image":"https://filter-search-rp.vercel.app/assets/images/2.png"
+        },
+        {
+            "id":5,
+            "title":"Xiaomi mi 11 lite",
+            "class":"phone",
+            "price":380,
+            "image":"https://filter-search-rp.vercel.app/assets/images/2.png"
+        },
+        {
+            "id":6,
+            "title":"Asus TUF F15",
+            "class":"laptop",
+            "price":1100,
+            "image":"https://filter-search-rp.vercel.app/assets/images/2.png"
+        },
+        {
+            "id":7,
+            "title":"Luxury Watches for Men & Women Visit",
+            "class":"watch",
+            "price":2500,
+            "image":"https://filter-search-rp.vercel.app/assets/images/2.png"
+        },
+        {
+            "id":8,
+            "title":"Samsung S22 Ultra",
+            "class":"phone",
+            "price":1900,
+            "image":"https://filter-search-rp.vercel.app/assets/images/2.png"
+        },
+        {
+            "id":9,
+            "title":"Lenovo Ideapad",
+            "class":"laptop",
+            "price":999,
+            "image":"https://filter-search-rp.vercel.app/assets/images/2.png"
+        },
+        {
+            "id":10,
+            "title":"Luxury Watches one swiss",
+            "class":"watch",
+            "price":3850,
+            "image":"https://filter-search-rp.vercel.app/assets/images/2.png"
+        },
+        {
+            "id":11,
+            "title":"Iphone 12 mini",
+            "class":"phone",
+            "price":1100,
+            "image":"https://filter-search-rp.vercel.app/assets/images/2.png"
+        },
+        {
+            "id":12,
+            "title":"Macbook air 2020",
+            "class":"laptop",
+            "price":999,
+            "image":"https://filter-search-rp.vercel.app/assets/images/2.png"
+        }
+
+    ]
+}
