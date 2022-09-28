@@ -1,5 +1,6 @@
 
 let searchInput = document.querySelector("#search");
+let cardsContainer = document.querySelector(".cards");
 
 let allProducts = [];
 
@@ -24,9 +25,35 @@ function renderProducts(_products,_filters){
         return p.title.toLowerCase().includes(_filters.searchWord.toLowerCase());
     })
     console.log(filteredProducts);
+
+    cardsContainer.innerHTML = ''
+    // render products in DOM
+
+    filteredProducts.forEach(item => {
+        let div = document.createElement('div');
+        div.classList.add('card');
+        div.innerHTML = `
+        <div class="card-top-part">
+                                <i class="far fa-heart"></i>
+                            </div>
+                            <div class="card-picture">
+                                <img src="${item.image}">
+                            </div>
+                            <div class="product-name">
+                                ${item.title}
+                            </div>
+                            <div class="card-footer">
+                                <div class="price">
+                                    $${item.price}
+                                </div>
+                                <i class="fas fa-shopping-basket"></i>
+                            </div>
+        `
+        cardsContainer.appendChild(div)
+
+    });
 }
 searchInput.addEventListener("input",(e)=>{
     searchItem.searchWord = e.target.value;
-    console.log(searchItem.searchWord)
     renderProducts(allProducts,searchItem);
 })
