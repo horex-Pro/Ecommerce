@@ -1,12 +1,15 @@
 
 let searchInput = document.querySelector("#search");
 let cardsContainer = document.querySelector(".cards");
+let filterButtons = document.querySelectorAll('.filter-option');
 
 let allProducts = [];
 
 const searchItem = {
     searchWord : ""
 };
+
+// connect to API
 
 document.addEventListener("DOMContentLoaded", ()=>{
     axios
@@ -19,12 +22,12 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
 })
 
+//filter products
 
 function renderProducts(_products,_filters){
     const filteredProducts = _products.filter( p =>{
         return p.title.toLowerCase().includes(_filters.searchWord.toLowerCase());
     })
-    console.log(filteredProducts);
 
     cardsContainer.innerHTML = ''
     // render products in DOM
@@ -49,11 +52,31 @@ function renderProducts(_products,_filters){
                                 <i class="fas fa-shopping-basket"></i>
                             </div>
         `
-        cardsContainer.appendChild(div)
+        cardsContainer.appendChild(div);
 
     });
 }
+
+// receive user entered word
+
 searchInput.addEventListener("input",(e)=>{
     searchItem.searchWord = e.target.value;
     renderProducts(allProducts,searchItem);
+})
+
+// filter products with category 
+
+filterButtons.forEach((btn)=>{
+    btn.addEventListener('click',(e)=>{
+        searchItem.searchWord = e.target.dataset.filter;
+
+        renderProducts(allProducts,searchItem)
+    })
+});
+
+// delete filters and show all products
+
+document.querySelector('.delete-filters').addEventListener('click',(e)=>{
+    searchItem.searchWord = '';
+    renderProducts(allProducts,searchItem)
 })

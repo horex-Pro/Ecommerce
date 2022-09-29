@@ -9,7 +9,7 @@
         },
         {
             "id":2,
-            "title":"Macbook pro 2021",
+            "title":"laptop Macbook pro 2021",
             "class":"laptop",
             "price":2200,
             "image":"https://traid24.com/wp-content/uploads/2021/10/hero_intro_endframe__e6khcva4hkeq_large.jpg"
@@ -30,14 +30,14 @@
         },
         {
             "id":5,
-            "title":"Xiaomi mi 11 lite",
+            "title":"phone Xiaomi mi 11 lite",
             "class":"phone",
             "price":380,
             "image":"https://www.ukrgate.com/eng/wp-content/uploads/2021/06/The-New-MI-11-Lite-From-Xiaomi1.jpg"
         },
         {
             "id":6,
-            "title":"Asus TUF F15",
+            "title":"laptop Asus TUF F15",
             "class":"laptop",
             "price":1100,
             "image":"https://www.notebookcheck-ru.com/uploads/tx_nbc2/fx507.jpg"
@@ -51,14 +51,14 @@
         },
         {
             "id":8,
-            "title":"Samsung S22 Ultra",
+            "title":"phone Samsung S22 Ultra",
             "class":"phone",
             "price":1900,
             "image":"https://photar.ru/wp-content/uploads/2022/01/Samsung_Galaxy_S22_Ultra_specs_camera_display_chipset_Note_design_drdNBC.jpg"
         },
         {
             "id":9,
-            "title":"Lenovo Ideapad",
+            "title":"laptop Lenovo Ideapad",
             "class":"laptop",
             "price":999,
             "image":"https://root-nation.com/wp-content/uploads/2020/11/lenovo-ideapad-3-15iil05-53.jpg"
@@ -79,7 +79,7 @@
         },
         {
             "id":12,
-            "title":"Macbook air 2020",
+            "title":"laptop Macbook air 2020",
             "class":"laptop",
             "price":999,
             "image":"https://helios-i.mashable.com/imagery/reviews/07qLER2Lhqh3jGyBzBRrFBO/hero-image.fill.size_1248x702.v1623389216.jpg"
